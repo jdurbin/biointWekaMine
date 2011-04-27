@@ -1,0 +1,39 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<display-name>XRBLK</display-name>
+	
+	<servlet>
+	      <servlet-name>biointWekaMine</servlet-name>
+	      <servlet-class>org.groovyvaadin.GroovyApplicationServlet</servlet-class>
+	      <init-param>
+	          <param-name>application</param-name>
+	          <param-value>kjd.biointWekaMine</param-value>
+	      </init-param>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>biointWekaMine</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet-mapping>
+		<servlet-name>biointWekaMine</servlet-name>
+		<url-pattern>/biointWekaMine/*</url-pattern>
+	</servlet-mapping>	
+	
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+
