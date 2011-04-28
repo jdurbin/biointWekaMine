@@ -71,8 +71,8 @@ class ClinicalDataPanel extends VerticalLayout implements ItemClickListener{
 				"    $propertyId distribution" as String)
 			removeComponent(featureHistogramChart)
 			featureHistogramChart = new JFreeChartWrapper(chart)
-			featureHistogramChart.setWidth("250px");
-			featureHistogramChart.setHeight("150px");
+			featureHistogramChart.setWidth("280px");
+			featureHistogramChart.setHeight("180px");
 			addComponent(featureHistogramChart)				
 			featureHistogramChart.requestRepaint()
 		}	

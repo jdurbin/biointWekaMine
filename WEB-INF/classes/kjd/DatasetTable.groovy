@@ -44,8 +44,8 @@ public class DatasetTable extends Table{
 			// Get clinical data for datasetName
 			def featuresVsDatasetMap = updateDatasetMap()	
 								
-			setWidth("950px");
-		  setHeight("125px");
+			setWidth("1200px");
+		  setHeight("150px");
 			// turn on column reordering and collapsing
 			setColumnReorderingAllowed(true);
 			setColumnCollapsingAllowed(true);	

@@ -55,8 +55,9 @@ public class ClinicalDataTable extends Table{
 			// database.  
 			featuresVsSamplesMap = updateClinicalData(datasetName)	
 								
-			setWidth("910px");
-		  setHeight("300px");
+			//setWidth("1150px");
+			setWidth("100%")
+		  setHeight("350px");
 			// turn on column reordering and collapsing
 			setColumnReorderingAllowed(true);
 			setColumnCollapsingAllowed(true);	

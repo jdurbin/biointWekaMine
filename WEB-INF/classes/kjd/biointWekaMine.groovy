@@ -11,7 +11,7 @@ import com.vaadin.ui.Form;
 
 import com.vaadin.ui.TabSheet;
 import com.vaadin.ui.TabSheet.SelectedTabChangeEvent;
-import com.vaadin.ui.TabSheet.Tab;
+import com.vaadin.ui.TabSheet.Tab;  
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.HorizontalLayout;
 
@@ -36,6 +36,8 @@ import org.jfree.ui.*;
 import org.jfree.chart.title.*;
 import org.jfree.chart.axis.*;
 import org.jfree.data.statistics.*;
+
+// A comment to test git...
 
 //Button.ClickListener,
 @SuppressWarnings("serial")
@@ -122,8 +124,8 @@ implements  Property.ValueChangeListener
 		l3.addComponent(new Label("MORE XRBLK"))
 
 		ts = new TabSheet();
-		ts.setHeight("550px")
-		ts.setWidth("950px")
+		ts.setHeight("700px")
+		ts.setWidth("1200px")
 		ts.addTab(clinicalDataPanel,"Clinical Data",null)
 		ts.addTab(wekaMinePanel,"Pre-run classifiers",null)
 		ts.addTab(l3,"Run custom classifier",null)

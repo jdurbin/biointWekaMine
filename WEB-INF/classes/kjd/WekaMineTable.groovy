@@ -80,8 +80,8 @@ implements Action.Handler{
 			
 			if (wekaMineResults.size() == 0) return; // Can't do anything with empty set.
 								
-			setWidth("490px");
-		  setHeight("300px");
+			setWidth("730px");
+		  setHeight("450px");
 			// turn on column reordering and collapsing
 			setColumnReorderingAllowed(true);
 			setColumnCollapsingAllowed(true);	
@@ -292,7 +292,7 @@ implements Action.Handler{
 				
 		def ftable = new Table("Top Features")
 		ftable.setWidth("20%");
-		ftable.setHeight("300px");
+		ftable.setHeight("450px");
 		ftable.addContainerProperty("Gene" as String,String.class,null);				
 		ftable.addContainerProperty("Score" as String,Float.class,null);				
 				
